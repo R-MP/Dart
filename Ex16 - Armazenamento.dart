@@ -11,11 +11,7 @@ void main(){
     Num a10 = Num("100");
 
     final lista = [a10,a9,a8,a7,a6,a5,a4,a3,a2,a1];
-    /*for(int i =1;i<=10;i++){
-      var transfer = "a"+"$i";
-      lista.add(transfer);
-      print("List: $lista");
-    }*/
+
     print("List: $lista");
     for(Num a in lista){
       print("Número> ${a.name}");

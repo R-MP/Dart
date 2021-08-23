@@ -1,6 +1,6 @@
 void main(){
-  var p = 10;
-  var alt = 1.70;
+  var p = 95;
+  var alt = 1.63;
   var imc = p/(alt*alt);
   if(imc<18.5)
     print("Abaixo do peso");

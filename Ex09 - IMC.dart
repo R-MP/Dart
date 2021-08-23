@@ -1,7 +1,7 @@
 void main(){
-  var p = 60;
-  var alt = 1.70;
-  var sex = 'M'; //M or F
+  var p = 95;
+  var alt = 1.63;
+  var sex = 'F'; //M or F
 
   var imc = p/(alt*alt);
   if(sex == 'M')
